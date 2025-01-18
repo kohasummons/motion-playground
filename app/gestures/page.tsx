@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, AnimatePresence, MotionConfig } from "motion/react";
+import { motion, MotionConfig } from "motion/react";
 
 export default function Gestures() {
   return (

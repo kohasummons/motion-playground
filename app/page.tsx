@@ -14,7 +14,7 @@ export default function Home() {
       <div className="grid place-content-center h-screen">
         <ul>
           {recipes.map((recipe) => (
-            <li className="text-gray-400 cursor-pointer">
+            <li key={recipe} className="text-gray-400 cursor-pointer">
               <Link href={recipe}>{recipe}</Link>
             </li>
           ))}
